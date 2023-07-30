@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "noharmtofinger",
+	"version": "${version}",
+	"name": "NoHarmToFinger",
+	"description": "Now you will always be sprinting,pressing the sprint key will cancel your sprinting state.Obiviously the best way to heal my broken pinky finger",
+	"authors": [
+		"_Itsraining"
+	],
+	"contact": {
+		"homepage": "https://github.com/Itsraining404",
+		"sources": "https://github.com/Itsraining404/NoHarmToFinger"
+	},
+	"license": "MIT",
+	"icon": "assets/noharmtofinger/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"it.is.noharmtofinger.NoHarmToFinger"
+		]
+	},
+	"mixins": [
+		"noharmtofinger.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
