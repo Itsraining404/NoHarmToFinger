@@ -14,4 +14,4 @@ depends:
 "java": ">=17",
 "fabric-api": "*"
 
-uploaded on 2023-7-30 and will never be updated again
+kinda funny but I NEED IT
