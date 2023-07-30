@@ -8,4 +8,10 @@ A mod allows you to always be sprinting and use the sprint key to cancel your sp
 
 license:MIT LICENSE
 
-uploaded on 2023-7-30 and will never update
+depends:
+"fabricloader": ">=0.14.21",
+"minecraft": "~1.20.1",
+"java": ">=17",
+"fabric-api": "*"
+
+uploaded on 2023-7-30 and will never be updated again
